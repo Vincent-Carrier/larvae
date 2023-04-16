@@ -1,6 +1,6 @@
-<x-guest-layout>
+<x-base-layout>
 	<h1>{{ $page->title }}</h1>
 	<article>
 		{!! $page->content !!}
 	</article>
-</x-guest-layout>
+</x-base-layout>
