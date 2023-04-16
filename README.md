@@ -1,6 +1,7 @@
 # Larvae
 
 Larvae is a minimal template for Laravel and the TALL stack.
+![Demo of the blog index](https://user-images.githubusercontent.com/24718190/232342045-3b51ea5e-07bd-44fa-b06f-b71f6094a31a.png)
 
 ## Features
 
