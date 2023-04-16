@@ -1,6 +1,6 @@
-<x-base-layout>
-	<h1>{{ $page->title }}</h1>
-	<article>
-		{!! $page->content !!}
-	</article>
-</x-base-layout>
+@extends('layouts.base')
+@section('title', $page->title)
+
+<div class="prose">
+    @section('content', $page->content)
+</div>

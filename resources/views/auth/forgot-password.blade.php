@@ -1,4 +1,7 @@
-<x-base-layout>
+@extends('layouts.base')
+@section('title', 'Forgot Your Password?')
+
+@section('content')
     <div class="mb-4 text-sm text-gray-600 dark:text-gray-400">
         {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
     </div>
@@ -22,4 +25,4 @@
             </x-primary-button>
         </div>
     </form>
-</x-base-layout>
+@endsection
