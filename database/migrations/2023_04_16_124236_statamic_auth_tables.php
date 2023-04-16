@@ -1,18 +1,16 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
-class StatamicAuthTables extends Migration
-{
+class StatamicAuthTables extends Migration {
     /**
      * Run the migrations.
      *
      * @return void
      */
-    public function up()
-    {
+    public function up() {
         Schema::table('users', function (Blueprint $table) {
             $table->boolean('super')->default(false);
             $table->string('avatar')->nullable();
@@ -40,11 +38,10 @@ class StatamicAuthTables extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
-     public function down()
-     {
+     /**
+      * Reverse the migrations.
+      */
+     public function down() {
          Schema::table('users', function (Blueprint $table) {
              $table->dropColumn('super');
              $table->dropColumn('avatar');
