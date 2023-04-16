@@ -9,7 +9,7 @@
 }
 
 @layer components {
-	.base-container { @apply mx-auto relative px-2 max-w-xl; }
+	.base-container { @apply mx-auto relative px-2 sm:px-8 max-w-3xl; }
 
 	.h1, .h2, .h3 { @apply font-sans font-bold text-gray-800; }
 	.h1 { @apply text-3xl; }

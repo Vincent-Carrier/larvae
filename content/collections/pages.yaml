@@ -1,9 +1,8 @@
-title: Posts
-template: posts/show
+title: Pages
+template: default
 layout: layouts/page
-mount: 2419d347-dbff-4bc4-b245-832f356b2c5c
 revisions: false
-route: '/{mount}/{slug}'
+route: '/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

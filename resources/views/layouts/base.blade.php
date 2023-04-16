@@ -16,7 +16,7 @@
     @stack('scripts')
 </head>
 
-<body class="font-sans text-neutral-900 antialiased">
+<body class="font-sans text-neutral-900 antialiased mb-16">
     @include('layouts.navigation')
 
     @yield('content')
